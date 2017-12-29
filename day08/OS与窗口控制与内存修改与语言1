@@ -1,1 +1,31 @@
 
+使用python进行编程时，经常和文件、目录打交道，这时就离不了os模块
+os模块包含普遍的操作系统功能，与具体的平台无关。
+# 运行shell命令
+os.system("notepad") # 打开记事本
+有些方法存在os模块中，有的存在于os.path中
+# 查看当前的绝对路径
+os.path.abspath(".")
+# 拼接路径
+os.path.join(path1, path2)
+# 拆分路径
+os.path.split(path2))
+# 获取扩展名
+os.path.splitext(path2))
+# 判断是否是目录
+os.path.isdir(path2))
+# 判断文件是否存在
+os.path.isfile(path2)
+# 判断目录是否存在
+os.path.exists(path2)
+# 获得文件大小(字节)
+os.path.getsize(path3)
+# 文件的目录
+os.path.dirname(path3)
+os.path.basename(path3)
+
+控制窗体的显示和隐藏
+import win32con
+import win32gui
+
+ 
